@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "database#123"
 
-# ---------------- DATABASE ----------------
+
 engine = create_engine("mysql+pymysql://root:rithi272@localhost:3306/emp_db")
 meta = MetaData()
 
@@ -32,7 +32,7 @@ meta.create_all(engine)
 Session = sessionmaker(bind=engine)
 db = Session()
 
-# ---------------- FORMS ----------------
+
 class RegisterForm(FlaskForm):
     username = StringField("Username", validators=[DataRequired()])
     password = PasswordField("Password", validators=[DataRequired()])
@@ -49,7 +49,7 @@ class AlertForm(FlaskForm):
     time = StringField("Time (HH:MM)", validators=[DataRequired()])
     submit = SubmitField("Save Alert")
 
-# ---------------- ROUTES ----------------
+
 @app.route("/", methods=["GET","POST"])
 def login():
     form = LoginForm()
