@@ -1,0 +1,25 @@
+<h2>Welcome {{name}}</h2>
+<a href="{{ url_for('logout') }}">Logout</a>
+<hr>
+<form method="POST">
+  {{ form.hidden_tag() }}
+  {{ form.message.label }} {{ form.message }}<br>
+  {{ form.time.label }} {{ form.time }}<br>
+  {{ form.submit }}
+</form>
+<h3>My Alerts</h3>
+<table border=1>
+<tr><th>ID</th><th>Message</th><th>Time</th><th>Status</th><th>Action</th></tr>
+{% for a in alerts %}
+<tr>
+<td>{{a.id}}</td>
+<td>{{a.message}}</td>
+<td>{{a.time}}</td>
+<td>{% if a.shown %}✅{% else %}⏳{% endif %}</td>
+<td>
+<a href="{{ url_for('edit', id=a.id) }}">Edit</a> |
+<a href="{{ url_for('delete', id=a.id) }}">Delete</a>
+</td>
+</tr>
+{% endfor %}
+</table>

@@ -1,0 +1,8 @@
+<h2>Edit Alert</h2>
+<form method="POST">
+  {{ form.hidden_tag() }}
+  {{ form.message.label }} {{ form.message }}<br>
+  {{ form.time.label }} {{ form.time }}<br>
+  {{ form.submit }}
+</form>
+<a href="{{ url_for('dashboard') }}">Back</a>
