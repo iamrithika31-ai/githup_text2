@@ -6,6 +6,7 @@
   <title>templates</title>
 </head>
 <body>
+<center>
   <h2>Login</h2>
 <form method="POST">
   {{ form.hidden_tag() }}
@@ -14,5 +15,6 @@
   {{ form.submit }}
 </form>
 <a href="{{ url_for('register') }}">Register</a>
+</center>
 </body>
 </html>
