@@ -1,4 +1,12 @@
-<h2>Login</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>templates</title>
+</head>
+<body>
+  <h2>Login</h2>
 <form method="POST">
   {{ form.hidden_tag() }}
   {{ form.username.label }} {{ form.username }}<br>
@@ -6,3 +14,5 @@
   {{ form.submit }}
 </form>
 <a href="{{ url_for('register') }}">Register</a>
+</body>
+</html>

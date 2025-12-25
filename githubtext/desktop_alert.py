@@ -16,4 +16,4 @@ while True:
             notification.notify(title="🔔 Alert", message=alert["message"], timeout=10)
         cursor.execute("UPDATE alerts SET shown=1 WHERE id=%s", (alert["id"],))
         db.commit()
-    time.sleep(30)  # check every 30 sec
+    time.sleep(30)  
