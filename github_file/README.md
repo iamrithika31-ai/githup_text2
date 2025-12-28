@@ -78,12 +78,29 @@ Message
 
 ![Contact Form](contact_form.png)
 
+<<<<<<< HEAD
+=======
+  Password
+     .Exactly 4 characters
+     .One uppercase letter
+     .One lowercase letter
+     .One number
+     .One special character
+ Message
+     .Required
+<<<<<<< HEAD
+>>>>>>> a88ea79 (add)
+
+=======
+>>>>>>> c8f2689 (add)
+
+
+
+<<<<<<< HEAD
 
 
 
 
 
-
-
-
-
+=======
+>>>>>>> c8f2689 (add)
