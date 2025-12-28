@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Task Manager – Flask Web Application
 
 ##  Project Overview
@@ -72,6 +72,4 @@ http://127.0.0.1:5000/
 
 
 
-=======
->>>>>>> 387a898 (add)
 

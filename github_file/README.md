@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Flask Contact Form with WTForms Validation
 
 ## Project Description
@@ -79,8 +79,7 @@ Message
 
 ![Contact Form](contact_form.png)
 
-<<<<<<< HEAD
-=======
+
   Password
      .Exactly 4 characters
      .One uppercase letter
@@ -89,21 +88,3 @@ Message
      .One special character
  Message
      .Required
-<<<<<<< HEAD
->>>>>>> a88ea79 (add)
-
-=======
->>>>>>> c8f2689 (add)
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
-=======
->>>>>>> c8f2689 (add)
-=======
->>>>>>> 387a898 (add)
