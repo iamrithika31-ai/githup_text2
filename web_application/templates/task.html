@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task Manager</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(#FFD86A 50%, #5B8CFF 50%);
+    font-family:Arial;
+}
+
+.card{
+    width:420px;
+    background:#F5FAFF;
+    padding:25px;
+    border-radius:15px;
+}
+
+.task{
+    background:white;
+    padding:10px;
+    margin:10px 0;
+    display:flex;
+    align-items:center;
+    border-radius:8px;
+}
+
+.task span{
+    flex:1;
+    margin-left:10px;
+}
+
+.done{
+    text-decoration:line-through;
+    color:gray;
+}
+
+button{
+    border:none;
+    padding:5px 8px;
+    margin-left:5px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.add{
+    background:#4A7CFF;
+    color:white;
+}
+
+.edit{
+    background:#4A7CFF;
+    color:white;
+}
+
+.delete{
+    background:#FF4D4D;
+    color:white;
+}
+
+.toggle{
+    text-decoration:none;
+    font-size:18px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+    <h3>Review Presentation</h3>
+    <p>You have {{ pending_count }} pending task{{ 's' if pending_count != 1 else '' }}</p>
+
+
+    <form action="/add" method="post">
+        <input name="task" placeholder="New task" required>
+        <button class="add">Add</button>
+    </form>
+
+    {% for task in tasks %}
+    <div class="task">
+
+        <a class="toggle" href="/toggle/{{task.id}}">✔</a>
+
+        <span class="{{ 'done' if task.done else '' }}">
+            {{ task.text }}
+        </span>
+
+        <form action="/edit/{{task.id}}" method="post">
+            <input name="task" value="{{ task.text }}">
+            <button class="edit">✏</button>
+        </form>
+
+        <a href="/delete/{{task.id}}">
+            <button class="delete">🗑</button>
+        </a>
+
+    </div>
+    {% endfor %}
+
+    {% if completed_count > 0 %}
+    <hr>
+    <p style="text-align:center; font-weight:bold; color:#2E7D32;">
+        You have completed {{ completed_count }} task{{ 's' if completed_count > 1 else '' }}
+    </p>
+    {% endif %}
+
+</div>
+
+</body>
+</html>   
+
+
+
+
+
+
