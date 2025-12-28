@@ -64,7 +64,8 @@ python app.py
 http://127.0.0.1:5000/
 
 ## Application Screenshot
-![Task Manager UI](web_application/task.png)
+![Task Manager UI](https://raw.githubusercontent.com/iamrithika31-ai/githup_text2/main/web_application/task.png)
+
 
 
 
