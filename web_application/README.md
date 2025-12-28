@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Task Manager – Flask Web Application
 
 ##  Project Overview
@@ -42,7 +42,7 @@ project_folder/
 └── README.md
 
 
----
+
 
 ##  Installation & Setup
 
@@ -68,10 +68,4 @@ http://127.0.0.1:5000/
 ![Task Manager UI](https://raw.githubusercontent.com/iamrithika31-ai/githup_text2/main/web_application/task.png)
 
 
-
-
-
-
-=======
->>>>>>> 387a898 (add)
 
