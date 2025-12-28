@@ -31,7 +31,7 @@ def contact():
     form=contactForm()
     if form.validate_on_submit():
         return 'form submitted successully'
-    return render_template('success.html',form=form)
+    return render_template('contact_form.html',form=form)
 if (__name__=='__main__'):
     app.run(debug=True)
 
