@@ -41,22 +41,17 @@ The system includes user authentication and a dashboard to manage alerts efficie
 
 ## Screenshots (Visual Proof)
 
-### Login Page
-![Login Page](login.png)
-![Register Page](register.png)
-![Alert Management](alert.png)
+## Screenshots
 
+### Login Page
+![Login Page](githubtext/screenshot-1766673784443%20login.png)
 
 ### Register Page
-![Register Page](https://raw.githubusercontent.com/iamrithika31-ai/githup_text2/main/githubtext/screenshot-1766674308343%20register.png)
+![Register Page](githubtext/screenshot-1766674308343%20register.png)
 
+### Alert Management
+![Alert Management](githubtext/screenshot-1766675231428%20delete%20,%20edit%20,%20add%20alert%20message.png)
 
-## login page
-![Login Page](https://raw.githubusercontent.com/iamrithika31-ai/githup_text2/main/githubtext/screenshot-1766673784443%20login.png)
-
-
-### Add / Edit / Delete Alert
-![Alert Management](https://raw.githubusercontent.com/iamrithika31-ai/githup_text2/main/githubtext/screenshot-1766675231428%20delete%20,%20edit%20,%20add%20alert%20message.png)
 
 
 ## How to Run the Project
