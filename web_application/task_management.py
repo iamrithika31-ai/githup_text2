@@ -4,14 +4,12 @@ from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 
 tasks = []
-     
-
 
 @app.route("/")
 def index():
     completed_count = sum(1 for task in tasks if task["done"])
     pending_count = len(tasks) - completed_count
-    return render_template( "dashboard_wtform.html", tasks=tasks,completed_count=completed_count,pending_count=pending_count)
+    return render_template( "task.html", tasks=tasks,completed_count=completed_count,pending_count=pending_count)
 
 @app.route("/add", methods=["POST"])
 def add():
