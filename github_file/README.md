@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flask Contact Form with WTForms Validation
 
 ## Project Description
@@ -104,3 +105,5 @@ Message
 
 =======
 >>>>>>> c8f2689 (add)
+=======
+>>>>>>> 387a898 (add)
