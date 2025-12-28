@@ -69,7 +69,18 @@ http://127.0.0.1:5000/
      .One special character
  Message
      .Required
+<<<<<<< HEAD
 
 ## Clickable Image (Markdown)
 [![Contact Form](contact_form.png)](contact_form.png)
 
+=======
+
+
+### Clickable Image (Markdown)
+ [Contact Form](contact_form.png)
+
+
+
+
+>>>>>>> 69ee1b3ce730bb9131492c12df6ff2aacde4023e
