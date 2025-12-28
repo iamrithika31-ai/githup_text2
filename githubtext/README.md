@@ -42,15 +42,9 @@ The system includes user authentication and a dashboard to manage alerts efficie
 ## Screenshots (Visual Proof)
 
 ## Screenshots
-
-### Login Page
 ![Login Page](githubtext/screenshot-1766673784443%20login.png)
-
-### Register Page
 ![Register Page](githubtext/screenshot-1766674308343%20register.png)
-
-### Alert Management
-![Alert Management](githubtext/screenshot-1766675231428%20delete%20,%20edit%20,%20add%20alert%20message.png)
+![Alert Management](githubtext/screenshot-1766675231428%20delete%20%2C%20edit%20%2C%20add%20alert%20message.png)
 
 
 
