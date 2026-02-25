@@ -4,7 +4,7 @@ import time
 import mysql.connector
 import platform
 
-db = mysql.connector.connect(host="localhost", user="root", password="rithi272", database="emp_db")
+db = mysql.connector.connect(host="localhost", user="root", password="rithi272", database="emp_db", auth_plugin='mysql_native_password')
 cursor = db.cursor(dictionary=True)
 
 while True:
