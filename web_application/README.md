@@ -42,7 +42,7 @@ project_folder/
 └── README.md
 
 
----
+
 
 ##  Installation & Setup
 
@@ -69,7 +69,10 @@ http://127.0.0.1:5000/
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 09f6089d567532b0c84afd2902ff792df0f817a5

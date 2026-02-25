@@ -79,7 +79,10 @@ Message
 
 ![Contact Form](contact_form.png)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 09f6089d567532b0c84afd2902ff792df0f817a5
   Password
      .Exactly 4 characters
      .One uppercase letter
@@ -88,3 +91,8 @@ Message
      .One special character
  Message
      .Required
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 09f6089d567532b0c84afd2902ff792df0f817a5
